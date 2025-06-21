@@ -79,24 +79,20 @@
 </section>
 <section>
     <h2 id="Contactanos">Formulario de Contacto</h2>
-<form method="post" action="/">
-        <fieldset>
-            <legend>Formulario</legend>
-            <div>
-            <label for="name" >Nombre:</label>
-            <input type="text" id="name" name="name" placeholder="Lionel Messi" required>
-            </div>
-            <div>
-            <label for="Email">Email:</label>
-            <input type="email" id="Email" name="Email" placeholder="LionelMessi@gmail.com" required>
-            </div>
-            <div>
-            <label for="Dudas">Dudas y Preguntas:</label>
-            <input type="text" id="Dudas" name="Dudas" placeholder="¿puedo empezar mañana?" required>
-            </div>
-        </fieldset>
-        <button>Enviar</button>
-    </form>
+<form
+  action="https://formspree.io/f/xblyaegb"
+  method="POST"
+>
+  <label>
+    Email:
+    <input type="email" id="email" name="email" placeholder="Fulanito@gmail.com">
+  </label>
+  <label>
+    Duda:
+    <input type="text" id="text" name="text" placeholder="Puedo ir solo 2 veces a la semana">
+  </label>
+  <button type="submit">Enviar</button>
+</form>
 </section>
 </main>
 <footer>
