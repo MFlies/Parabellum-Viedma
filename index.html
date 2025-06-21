@@ -79,12 +79,24 @@
 </section>
 <section>
     <h2 id="Contactanos">Formulario de Contacto</h2>
-    <form action="https://formsubmit.co/parabellumviedma@gmail.com" method="POST">
-     <input type="text" name="name" required>
-     <input type="email" name="email" required>
-     <button type="submit">Send</button>
-</form>
-
+<form method="post" action="/">
+        <fieldset>
+            <legend>Formulario</legend>
+            <div>
+            <label for="name" >Nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Lionel Messi" required>
+            </div>
+            <div>
+            <label for="Email">Email:</label>
+            <input type="email" id="Email" name="Email" placeholder="LionelMessi@gmail.com" required>
+            </div>
+            <div>
+            <label for="Dudas">Dudas y Preguntas:</label>
+            <input type="text" id="Dudas" name="Dudas" placeholder="¿puedo empezar mañana?" required>
+            </div>
+        </fieldset>
+        <button>Enviar</button>
+    </form>
 </section>
 </main>
 <footer>
